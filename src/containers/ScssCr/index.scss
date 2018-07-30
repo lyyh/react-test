@@ -1,0 +1,20 @@
+@import 'local.scss';
+@import 'ps.scss';
+
+$highlight-color: #F90;
+.box{
+  color: $highlight-color;
+}
+$highlight-color: #000;
+.box-dark{
+  color: $highlight-color;
+}
+h1{
+  animation: appear 0.5s infinite;
+}
+
+.post{
+  &--actived{
+    color: aquamarine;
+  }
+}
